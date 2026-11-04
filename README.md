@@ -267,3 +267,4 @@ All test suites validate JWT authentication, doctor licensing validation, ML pre
 - **Data Isolation:** Patients cannot view or access another patient's medical assessments or PDF downloads.
 - **Audit Logging:** Every critical action (logins, prediction requests, model activation switches, and PDF report downloads) creates an immutable record in `clinical_auditlog` with actor and IP address.
 - **Clinical Governance:** AI models serve strictly as educational decision-support aids; doctors maintain authority to add clinical impressions and validate recommendations.
+# HeartSense-AI
